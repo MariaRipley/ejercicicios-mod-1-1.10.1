@@ -16,6 +16,7 @@
           name="firstName"
           id="firstName"
           placeholder="Escribe aquí tu nombre"
+          required
         />
         <label for="lastName">Apellido:</label>
         <input
@@ -30,6 +31,7 @@
           name="mail"
           id="name"
           placeholder="tumail@mail.com"
+          required
         />
         <label for="address">Calle:</label>
         <input
@@ -37,27 +39,25 @@
           name="address"
           id="address"
           placeholder="Nombre de tu calle"
+          required
         />
         <label for="city">Ciudad:</label>
-        <input
-          type="text"
-          name="city"
-          id="city"
-          placeholder="Nombre de tu ciudad"
-        />
+        <input type="text" name="city" id="city" required value="Madrid" />
         <label for="province">Provincia:</label>
         <input
           type="text"
           name="province"
           id="province"
           placeholder="Nombre de tu provincia"
+          required
         />
         <label for="country">País:</label>
         <input
           type="text"
           name="country"
           id="country"
-          placeholder="Nombre de tu país"
+          value="España"
+          required
         />
         <label for="idNumber">DNI:</label>
         <input
@@ -65,15 +65,23 @@
           name="idNumber"
           id="idNumber"
           placeholder="11223344X"
+          required
         />
         <label for="tel">Teléfono:</label>
-        <input type="tel" name="tel" id="tel" placeholder="666666666" />
+        <input
+          type="tel"
+          name="tel"
+          id="tel"
+          placeholder="666666666"
+          required
+        />
         <label for="password">Contraseña:</label>
         <input
           type="password"
           name="password"
           id="password"
           placeholder="Escribe aquí tu contraseña"
+          required
         />
         <label for="confirmPass">Confirmar contraseña:</label>
         <input
@@ -81,6 +89,7 @@
           name="confirmPass"
           id="confirmPass"
           placeholder="Tu contraseña de nuevo"
+          required
         />
 
         <input type="submit" value="Enviar info" />
