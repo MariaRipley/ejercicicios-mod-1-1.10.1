@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Formularios | Ejercicios</title>
+  </head>
+  <body>
+    <main>
+      <form action="https://adalab-server-form.herokuapp.com/" method="post">
+        <label for="firstName">Nombre:</label>
+        <input
+          type="text"
+          name="firstName"
+          id="firstName"
+          placeholder="Escribe aquí tu nombre"
+        />
+        <label for="lastName">Apellido:</label>
+        <input
+          type="text"
+          name="lastName"
+          id="lastName"
+          placeholder="Escribe aquí tu apellido"
+        />
+        <label for="mail">Email:</label>
+        <input
+          type="email"
+          name="mail"
+          id="name"
+          placeholder="tumail@mail.com"
+        />
+        <label for="address">Calle:</label>
+        <input
+          type="text"
+          name="address"
+          id="address"
+          placeholder="Nombre de tu calle"
+        />
+        <label for="city">Ciudad:</label>
+        <input
+          type="text"
+          name="city"
+          id="city"
+          placeholder="Nombre de tu ciudad"
+        />
+        <label for="province">Provincia:</label>
+        <input
+          type="text"
+          name="province"
+          id="province"
+          placeholder="Nombre de tu provincia"
+        />
+        <label for="country">País:</label>
+        <input
+          type="text"
+          name="country"
+          id="country"
+          placeholder="Nombre de tu país"
+        />
+        <label for="idNumber">DNI:</label>
+        <input
+          type="text"
+          name="idNumber"
+          id="idNumber"
+          placeholder="11223344X"
+        />
+        <label for="tel">Teléfono:</label>
+        <input type="tel" name="tel" id="tel" placeholder="666666666" />
+        <label for="password">Contraseña:</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Escribe aquí tu contraseña"
+        />
+        <label for="confirmPass">Confirmar contraseña:</label>
+        <input
+          type="password"
+          name="confirmPass"
+          id="confirmPass"
+          placeholder="Tu contraseña de nuevo"
+        />
+
+        <input type="submit" value="Enviar info" />
+      </form>
+    </main>
+  </body>
+</html>
